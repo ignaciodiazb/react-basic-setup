@@ -33,14 +33,6 @@ const App = () => {
         <img src={blueberries} alt="blueberries plant" width="300px" />
         <figcaption>Image from a local file</figcaption>
       </figure>
-      <figure>
-        <img
-          src="https://justfruitsandexotics.com/wp-content/uploads/5b949c21e8444-800x600.jpg"
-          alt="raspberries plant"
-          width="300px"
-        />
-        <figcaption>Image from a url</figcaption>
-      </figure>
     </div>
   );
 };
