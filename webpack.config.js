@@ -9,10 +9,9 @@ module.exports = {
     filename: 'bundle.js',
   },
   devServer: {
-    port: 3000,
+    port: 5000,
     open: true,
     hot: true,
-    liveReload: true,
   },
   plugins: [
     new HTMLWebpackPlugin({
